@@ -21,9 +21,3 @@ header, footer {
 aside {
     border-right: 1px solid #999;
 }
-
-@media (min-width: 600px) {
-    .container {
-        color: red;
-    }
-}
