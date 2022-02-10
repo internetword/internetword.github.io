@@ -1,5 +1,5 @@
 let randomNumber = Math.floor(Math.random()) + 1;
-
+console.log(randomNumber);
   const guesses = document.querySelector('.guesses');
   const lastResult = document.querySelector('.lastResult');
   const lowOrHi = document.querySelector('.lowOrHi');
@@ -67,4 +67,5 @@ let randomNumber = Math.floor(Math.random()) + 1;
 	  lastResult.style.backgroundColor = 'white';
 
 	  randomNumber = Math.floor(Math.random()) + 1;
+      console.log(randomNumber);
   }
