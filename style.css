@@ -3,5 +3,10 @@ body {
 }
 
 h1 {
-    font-size:xxx-large;
+    font-size: 12em;
+    text-align: center;
+}
+
+p {
+    font-size: 10em;
 }
