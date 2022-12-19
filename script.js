@@ -5,7 +5,7 @@ let Ebutton = document.querySelector('button:nth-of-type(2)');
 let Rbutton = document.querySelector('button:last-of-type');
 
 function StandardTime (duration) {
-    let hours = Math.trunc(duration / 1000 / 60 / 60 /24);
+    let hours = Math.trunc(duration / 1000 / 60 / 60 / 24);
     let minutes = duration / 1000 / 60 % 60;
     let seconds = duration / 1000 % 60;
     let milliseconds = duration % 1000;
