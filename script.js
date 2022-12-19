@@ -6,8 +6,8 @@ let Rbutton = document.querySelector('button:last-of-type');
 
 function StandardTime (duration) {
     let hours = Math.trunc(duration / 1000 / 60 / 60 / 24);
-    let minutes = duration / 1000 / 60 % 60;
-    let seconds = duration / 1000 % 60;
+    let minutes = Math.trunc(duration / 1000 / 60 % 60);
+    let seconds = Math.trunc(duration / 1000 % 60);
     let milliseconds = duration % 1000;
 
     return  hours + ':' + minutes + ':' + seconds + '.' + milliseconds;
