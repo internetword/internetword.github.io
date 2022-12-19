@@ -33,6 +33,8 @@ function Stopwatch () {
     }
 }
 
-Sbutton.addEventListener('click', () => Stopwatch.start());
-Ebutton.addEventListener('click', () => Stopwatch.stop());
-Rbutton.addEventListener('click', () => Stopwatch.reset());
+let stopwatch = new Stopwatch();
+
+Sbutton.addEventListener('click', () => stopwatch.start());
+Ebutton.addEventListener('click', () => stopwatch.stop());
+Rbutton.addEventListener('click', () => stopwatch.reset());
