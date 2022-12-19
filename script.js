@@ -18,7 +18,7 @@ function Stopwatch () {
 
     this.start = function () {
         if (running) {
-            p.textContent = 'Stopwatch has already started.';
+            p.textContent = 'Already started.';
         } else {
         startT = Date.now();
         running = true;
@@ -32,13 +32,13 @@ function Stopwatch () {
         p.textContent = StandardTime(duration);
         running = false;
         } else {
-            p.textContent = 'Stopwatch has already stopped';
+            p.textContent = 'Already stopped';
         }
     }
 
     this.reset = function () {
         if (duration = 0) {
-            p.textContent = `Stopwatch is already at ${duration}`;
+            p.textContent = `Already at ${duration}`;
         } else {
         duration = 0;
         p.textContent = StandardTime(duration);
