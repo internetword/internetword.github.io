@@ -13,5 +13,9 @@ p {
 
 main {
     display: flex;
+    justify-content: space-evenly;
+}
+
+button {
     font-size: 5em;
 }
