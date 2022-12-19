@@ -14,22 +14,35 @@ function StandardTime (duration) {
 }
 
 function Stopwatch () {
-    let startT, endT, duration = 0;
+    let startT, endT, duration, running = 0;
 
     this.start = function () {
+        if (running) {
+            p.textContent = 'Stopwatch has already started.';
+        } else {
         startT = Date.now();
+        running = true;
+        }
     }
 
     this.stop = function () {
+        if (running) {
         endT = Date.now();
         duration += endT - startT;
-
         p.textContent = StandardTime(duration);
+        running = false;
+        } else {
+            p.textContent = 'Stopwatch has already stopped';
+        }
     }
 
     this.reset = function () {
+        if (duration = 0) {
+            p.textContent = `Stopwatch is already at ${duration}`;
+        } else {
         duration = 0;
         p.textContent = StandardTime(duration);
+        }
     }
 }
 
