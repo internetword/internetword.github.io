@@ -15,3 +15,6 @@ p, li {
     letter-spacing: 1px;
 }
 
+body {
+    width: 600px;
+}
