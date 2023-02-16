@@ -17,4 +17,6 @@ p, li {
 
 body {
     width: 600px;
+    margin: auto;
+    background-color: #ff9500;
 }
