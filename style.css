@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     font-family: 'Roboto', cursive;
+    background-color: #00539f;
 }
 
 h1 {
@@ -13,3 +14,4 @@ p, li {
     line-height: 2;
     letter-spacing: 1px;
 }
+
