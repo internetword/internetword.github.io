@@ -22,5 +22,13 @@
 
             <p>Read the <a href="//mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> 
                 to learn more about the values and principles that guides the pursuit of our mission.</p>
-    </body>
+                <script>
+                    loadScript('script.js');
+
+                    function loadScript (src) {
+                        let script = document.createElement('script');
+                        script.src = src;
+                        document.head.append(script);
+                    }
+                    </script>
 </html>
