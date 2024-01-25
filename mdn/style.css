@@ -29,6 +29,12 @@ h2 {
     font-size: 3rem;
 }
 
+/* || header layout */
+
+header {
+    margin-block-end: 10px;
+}
+
 title {
     color: green;
 }
