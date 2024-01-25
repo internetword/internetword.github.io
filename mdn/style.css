@@ -23,6 +23,8 @@ p, li {
 h1 {
     font-size: 4rem;
     text-shadow: 2px 2px 10px black;
+    flex: 5;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -34,4 +36,14 @@ h2 {
 header {
     margin-block-end: 10px;
     display: flex;
+    flex-flow: row wrap;
+}
+
+body > * {
+    background-color: red;
+    padding: 1%;
+}
+
+header {
+    background-color: rgb(0 255 0 / .5);
 }
