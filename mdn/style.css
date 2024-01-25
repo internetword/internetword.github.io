@@ -1,0 +1,10 @@
+html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+
+body {
+    inline-size: 70%;
+    min-inline-size: 800px;
+    margin: auto;
+}
