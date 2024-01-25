@@ -39,7 +39,7 @@ header {
     flex-flow: row wrap;
 }
 
-header {
+header, main {
     background-color: rgb(0 255 0 / .5);
     padding: 1%;
 }
