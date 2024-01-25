@@ -33,8 +33,5 @@ h2 {
 
 header {
     margin-block-end: 10px;
-}
-
-title {
-    color: green;
+    display: flex;
 }
