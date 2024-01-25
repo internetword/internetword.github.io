@@ -81,3 +81,33 @@ nav {
         color: black;
     }
 }
+
+/* || main layout */
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 4;
+}
+
+aside {
+    flex: 1;
+    margin-inline-start: 10px;
+    padding: 1px;
+
+    a {
+        display: block;
+        float: inline-start;
+        inline-size: 50%;
+    }
+
+    img {
+        max-inline-size: 100%;
+    }
+}
+
+footer {
+    margin-block-start: 10px;
+}
