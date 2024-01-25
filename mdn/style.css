@@ -47,4 +47,11 @@ header, main, footer {
 header img {
     display: block;
     block-size: 60px;
+    padding-block-start: 20.15px;
+}
+
+nav {
+    block-size:  50px;
+    flex: 100%;
+    display: flex;
 }
