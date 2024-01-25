@@ -47,7 +47,7 @@ header {
 
 }
 
-header, main, footer {
+header, main, nav, article, aside, footer {
     background-color: rgb(0 255 0 / .5);
     padding: 1%;
 }
