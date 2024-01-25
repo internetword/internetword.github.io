@@ -8,3 +8,13 @@ body {
     min-inline-size: 800px;
     margin: auto;
 }
+
+h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #2a2a2a;
+}
+
+p, li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2a2a2a;
+}
