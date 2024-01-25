@@ -37,6 +37,14 @@ header {
     margin-block-end: 10px;
     display: flex;
     flex-flow: row wrap;
+
+    img {
+        display: block;
+        block-size: 60px;
+        padding-block-start: 20.15px;
+    }
+
+
 }
 
 header, main, footer {
@@ -44,26 +52,32 @@ header, main, footer {
     padding: 1%;
 }
 
-header img {
-    display: block;
-    block-size: 60px;
-    padding-block-start: 20.15px;
-}
+
 
 nav {
     block-size: 50px;
     flex: 100%;
-}
 
-nav ul {
-    padding: 0;
-    list-style-type: none;
-    flex: 2;
-    display: flex;
-}
+    ul {
+        padding: 0;
+        list-style-type: none;
+        flex: 2;
+        display: flex;
+    }
 
-nav li {
-    display: inline;
-    text-align: center;
-    flex: 1;
+    li {
+        display: inline;
+        text-align: center;
+        flex: 1;
+    }
+    
+    a, span {
+        display: inline-block;
+        font-size: 2rem;
+        block-size: 3rem;
+        line-height: 1.7;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+    }
 }
