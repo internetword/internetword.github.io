@@ -39,11 +39,12 @@ header {
     flex-flow: row wrap;
 }
 
-body > * {
-    background-color: red;
+header {
+    background-color: rgb(0 255 0 / .5);
     padding: 1%;
 }
 
-header {
-    background-color: rgb(0 255 0 / .5);
+header img {
+    display: block;
+    block-size: 60px;
 }
