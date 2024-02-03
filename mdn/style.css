@@ -121,3 +121,7 @@ footer {
 :past {
     background-color: purple;
 }
+
+:future {
+    text-decoration: underline;
+}
