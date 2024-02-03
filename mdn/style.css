@@ -113,3 +113,11 @@ aside {
 footer {
     margin-block-start: 10px;
 }
+
+::cue {
+    color: turquoise;
+}
+
+:past {
+    background-color: purple;
+}
