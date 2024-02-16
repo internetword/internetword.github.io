@@ -12,3 +12,41 @@ body {
     background-color: white;
     position: relative;
 }
+
+header {
+    block-size: 150px;
+    
+    img {
+        inline-size: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 140px;
+    margin: 0 0 0 32.5px;
+}
+
+main {
+    background-color: #ccc;
+}
+
+article {
+    padding: 20px;
+}
+
+h2 {
+    margin-inline-start: 0;
+}
+
+p {
+    line-height: 2;
+}
+
+iframe {
+    float: inline-start;
+    margin: 0 20px 20px 0;
+}
