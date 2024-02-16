@@ -49,6 +49,7 @@ p {
 iframe {
     float: inline-start;
     margin: 0 20px 20px 0;
+    max-inline-size: 100%;
 }
 
 .further-info {
