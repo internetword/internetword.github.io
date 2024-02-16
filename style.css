@@ -4,3 +4,11 @@ html {
     font-family: 'Open Sans', sans-serif;
     background: url(pattern.png);
 }
+
+body {
+    inline-size: 100%;;
+    max-inline-size: 1200px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
