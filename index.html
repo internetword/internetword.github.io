@@ -24,6 +24,8 @@
     }
 
     body {
+      --first-color: #722c48;
+      --norm-color: #83442f;
       margin: 0;
       font-family: Outfit, sans-serif;
     }
@@ -51,6 +53,22 @@
     tr:not(:last-child) :is(th, td) {
       border-block-end: 1px solid gray;
     }
+
+    h2 {
+    &:first-of-type {
+      color: var(--first-color);
+    }
+    color: var(--norm-color);
+  }
+
+  ul:first-of-type ::marker {
+    color: var(--first-color);
+  }
+
+  :is(ol, ul) ::marker {
+    color: var(--norm-color);
+  }
+
   </style>
 </head>
 <body>
