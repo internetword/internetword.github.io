@@ -47,11 +47,11 @@
 
     section {
       margin: auto;
-      inline-size: 80%;
+      inline-size: 90%;
     }
 
     tr:not(:last-child) :is(th, td) {
-      border-block-end: 1px solid gray;
+      border-block-end: 1px solid rgb(216, 216, 216);
     }
 
     h2 {
@@ -85,6 +85,7 @@
 
   td {
     font-weight: bold;
+    color: var(--norm-color);
   }
 
 @media (width >= 1024px) {
@@ -98,6 +99,16 @@
     margin-inline: auto;
     margin-block: 5%;
     border-radius: 3em;
+  }
+
+  img {
+    inline-size: 90%;
+    margin-inline: auto;
+    margin-block-start: 3em;
+  }
+
+  header {
+    padding-inline-start: 1em;
   }
 
 }
