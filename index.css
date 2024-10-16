@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   --first-color: #722c48;
   --norm-color: #83442f;
   margin: 0;
@@ -89,7 +89,7 @@ caption {
 text-align: left;
 }
 
-col {
+th, td {
 inline-size: 50%;
 }
 
@@ -115,7 +115,7 @@ html {
 background-color: #f3e5d8;
 }
 
-body {
+main {
 background-color: white;
 inline-size: 52%;
 margin-inline: auto;
