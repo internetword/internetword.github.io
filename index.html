@@ -3,146 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    @font-face {
-      font-family: Outfit;
-      src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
-    }
-
-    @font-face {
-      font-family: 'Young Serif';
-      src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      --first-color: #722c48;
-      --norm-color: #83442f;
-      margin: 0;
-      font-family: Outfit, sans-serif;
-    }
-  
-    h1, p {
-      margin-inline: auto;
-      inline-size: 92%;
-      margin-block-start: 1em;
-    }
-
-
-
-    h1, h2 {
-      font-family: 'Young Serif', serif;
-      font-weight: normal;
-    }
-
-    img {
-      inline-size: 100%;
-    }
-
-    section {
-      &:first-of-type {
-        margin-inline-start: 5%;
-      }
-      margin-inline: auto;
-      margin-block-start: 2.8em;
-      inline-size: 92%;
-    }
-
-    ol, ul {
-      padding-inline-start: 3%;
-    }
-
-    li {
-      padding-inline-start: 1em;
-    }
-
-    th {
-      text-align: left;
-    }
-
-    tr:not(:last-child) :is(th, td) {
-      border-block-end: 1px solid rgb(216, 216, 216);
-    }
-
-    h2 {
-    section:first-of-type & {
-      color: var(--first-color);
-    }
-    color: var(--norm-color);
-  }
-
-  ul:first-of-type ::marker {
-    color: var(--first-color);
-  }
-
-  :is(ol, ul) ::marker {
-    color: var(--norm-color);
-  }
-
-  table {
-    border-collapse: collapse;
-    margin: auto;
-    inline-size: 100%;
-  }
-
-  caption {
-    text-align: left;
-  }
-
-  col {
-    inline-size: 50%;
-  }
-
-  th {
-    font-weight: normal;
-  }
-
-  td {
-    font-weight: bold;
-    color: var(--norm-color);
-  }
-
-  th, td {
-    padding-block: .5em;
-  }
-
-  footer {
-    margin-block-start: 2em;
-  }
-
-@media (width >= 1024px) {
-  html {
-    background-color: #f3e5d8;
-  }
-
-  body {
-    background-color: white;
-    inline-size: 52%;
-    margin-inline: auto;
-    margin-block: 3%;
-    border-radius: 3em; 
-    padding-block-start: 2.8em;
-  }
-
-  header {
-    margin-inline: auto;
-    inline-size: 92%;
-  }
-}
-
-  </style>
 </head>
 <body>
   <header>
@@ -210,19 +74,19 @@
     </colgroup>
     <tbody>
       <tr>
-      <th>Calories</th>
+      <th scope="row">Calories</th>
       <td>277kcal</td>
     </tr>
     <tr>
-      <th>Carbs</th>
+      <th scope="row">Carbs</th>
       <td>0g</td>
       </tr>
       <tr>
-     <th>Protein</th>
+     <th scope="row">Protein</th>
       <td>20g</td>
       </tr>
      <tr>
-      <th>Fat</th>
+      <th scope="row">Fat</th>
       <td>22g</td>
      </tr>
     </tbody>
