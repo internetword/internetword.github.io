@@ -38,6 +38,7 @@ p {
     color: hsl(216, 15%, 48%);
 
     &:first-child {
+    color: hsl(218, 44%, 22%);
     font-weight: bold;
 }
 }
