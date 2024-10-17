@@ -15,15 +15,20 @@
 body {
     font-size: 15px;
     background-color: hsl(212 45 89);
-    margin: 0;
 }
 
 figure {
     border-radius: 2em;
     margin: auto;
     background-color: white;
+    inline-size: 44%;
 }
 
 img {
     border-radius: 2em;
+    margin: 2em;
+}
+
+p:first-child {
+    font-weight: bold;
 }
