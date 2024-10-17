@@ -28,7 +28,7 @@ figure {
 img {
     border-radius: 2em;
     margin: 2em;
-    inline-size: fit-content;
+    inline-size: calc(100% - 2em);
 }
 
 p:first-child {
