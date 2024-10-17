@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    block-size: 100%;
+}
+
 @font-face {
     font-family: Outfit;
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
