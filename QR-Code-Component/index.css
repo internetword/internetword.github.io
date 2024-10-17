@@ -7,6 +7,10 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: Outfit;
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
@@ -18,7 +22,7 @@ body {
 }
 
 figure {
-    border-radius: 2em;
+    border-radius: 1em;
     margin: 3em auto;
     background-color: white;
     inline-size: 18em;
@@ -26,10 +30,14 @@ figure {
 }
 
 img {
-    border-radius: 2em;
-    inline-size: calc(100% - 1em);
+    border-radius: 1em;
+    inline-size: 100%;
 }
 
-p:first-child {
+p {
+    color: hsl(216, 15%, 48%);
+
+    &:first-child {
     font-weight: bold;
+}
 }
