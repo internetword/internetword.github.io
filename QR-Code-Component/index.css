@@ -21,4 +21,9 @@ body {
 figure {
     border-radius: 2em;
     margin: auto;
+    background-color: white;
+}
+
+img {
+    border-radius: 2em;
 }
