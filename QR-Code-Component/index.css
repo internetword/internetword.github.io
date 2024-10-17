@@ -6,3 +6,17 @@
     }
 
 }
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(212 45 89);
+}
+
+figure {
+    border-radius: 2em;
+}
