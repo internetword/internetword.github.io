@@ -21,14 +21,14 @@ figure {
     border-radius: 2em;
     margin: 3em auto;
     background-color: white;
-    inline-size: 33%;
-    padding: 1em;
+    inline-size: 11%;
+    padding: .5em;
 }
 
 img {
     border-radius: 2em;
-    margin: 2em;
-    inline-size: calc(100% - 2em);
+    margin-inline: 1em;
+    inline-size: calc(100% - 1em);
 }
 
 p:first-child {
