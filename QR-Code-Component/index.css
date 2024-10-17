@@ -19,7 +19,7 @@ body {
 
 figure {
     border-radius: 2em;
-    margin: auto;
+    margin: auto 3em;
     background-color: white;
     inline-size: 22%;
     padding: 1em;
