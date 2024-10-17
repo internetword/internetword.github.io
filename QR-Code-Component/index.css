@@ -19,6 +19,9 @@
 body {
     font-size: 15px;
     background-color: hsl(212 45 89);
+    block-size: 100%;
+    margin: 0;
+    display: flex block;
 }
 
 figure {
