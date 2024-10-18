@@ -41,8 +41,8 @@ body {
 figure {
     border-radius: 1em;
     background-color: white;
-    inline-size: 18em;
-    padding: .9em;
+    inline-size: 20em;
+    padding: 1em;
     box-shadow: 2px 2px 10px rgba(0 0 0 / .1);
 }
 
@@ -52,7 +52,7 @@ img {
 }
 
 h1 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
     color: hsl(218, 44%, 22%);
     font-weight: bold;
