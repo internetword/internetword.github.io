@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-html {
+html, body, .container {
     block-size: 100%;
 }
 
@@ -37,7 +37,7 @@ figure {
     border-radius: 1em;
     background-color: white;
     inline-size: 18em;
-    padding: .5em;
+    padding: 1em;
 }
 
 img {
