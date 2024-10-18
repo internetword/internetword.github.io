@@ -4,6 +4,7 @@
      position: absolute;
      position-anchor: --qr-container;
      position-area: block-end;
+     inset-block-start: -2em;
 
      a { 
         color: hsl(228, 45%, 44%); 
