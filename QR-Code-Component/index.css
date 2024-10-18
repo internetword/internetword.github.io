@@ -2,7 +2,8 @@
      font-size: 11px; 
      text-align: center;
      position: absolute;
-     bottom: 2em;
+     position-anchor: --qr-conntainer;
+     position-area: bottom;
 
      a { 
         color: hsl(228, 45%, 44%); 
@@ -14,7 +15,7 @@
     box-sizing: border-box;
 }
 
-html, body, .container {
+html, body, .qr-container {
     block-size: 100%;
 }
 
@@ -29,10 +30,11 @@ body {
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-.container {
+.qr-container {
     display: flex block;
     align-items: center;
     justify-content: center;
+    anchor-name: --qr-container;
 }
 
 figure {
