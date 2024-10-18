@@ -30,7 +30,8 @@ body {
 
 figure {
     border-radius: 1em;
-    margin: 3em auto;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     inline-size: 18em;
     padding: .5em;
