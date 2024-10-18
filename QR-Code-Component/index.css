@@ -20,7 +20,7 @@ html {
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-body {
+.container {
     font-size: 15px;
     background-color: hsl(212 45 89);
     block-size: 100%;
