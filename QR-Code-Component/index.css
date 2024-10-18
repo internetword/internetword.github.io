@@ -26,12 +26,12 @@ html {
     block-size: 100%;
     margin: 0;
     display: flex block;
+    align-items: center;
+    justify-content: center;
 }
 
 figure {
     border-radius: 1em;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     inline-size: 18em;
     padding: .5em;
