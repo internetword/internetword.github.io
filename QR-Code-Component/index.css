@@ -18,6 +18,8 @@ html {
 
 body {
     margin: 0;
+    background-color: hsl(212 45 89);
+    font-size: 15px;
 }
 
 @font-face {
@@ -26,9 +28,6 @@ body {
 }
 
 .container {
-    font-size: 15px;
-    background-color: hsl(212 45 89);
-    block-size: 100%;
     display: flex block;
     align-items: center;
     justify-content: center;
