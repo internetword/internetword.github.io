@@ -41,7 +41,7 @@ body {
 figure {
     border-radius: 1em;
     background-color: white;
-    inline-size: 20em;
+    inline-size: 18em;
     padding: .9em;
     box-shadow: 1px 1px 5px rgba(0 0 0 / .1);
 }
