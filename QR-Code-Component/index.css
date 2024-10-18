@@ -43,6 +43,7 @@ figure {
     background-color: white;
     inline-size: 20em;
     padding: .9em;
+    box-shadow: 3px 3px 2px;
 }
 
 img {
