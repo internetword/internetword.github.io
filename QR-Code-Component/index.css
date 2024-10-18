@@ -3,7 +3,7 @@
      text-align: center;
      position: absolute;
      position-anchor: --qr-conntainer;
-     position-area: bottom;
+     position-area: block-end;
 
      a { 
         color: hsl(228, 45%, 44%); 
